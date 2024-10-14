@@ -5,7 +5,15 @@
       "category" : "",
       "tags"     : "",
       "url"      : "/smart-preop-doc/docs/introduction/",
-      "date"     : "2024-03-20 00:00:00 +0000"
+      "date"     : "2024-10-14 00:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Technical Information",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/smart-preop-doc/docs/technical-info/",
+      "date"     : "2024-10-14 00:00:00 +0000"
     } 
   
 ]

@@ -10,17 +10,17 @@
 <meta name="generator" content="Jekyll v4.1.1" />
 <meta property="og:title" content="Introduction to Smart PreOp" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Introduction to Smart PreOp" />
-<meta property="og:description" content="Introduction to Smart PreOp" />
+<meta name="description" content="Using Smart PreOp The Smart PreOp Solution is designed to support and accelerate clinical assessments, not to replace informed decisions made by clinicians. Individuals using the solution should be aware that any clinical judgments they make based on information provided by Smart PreOp should be evaluated in conjunction with information from the patient and their medical records, as well as the clinician’s own knowledge and experience" />
+<meta property="og:description" content="Using Smart PreOp The Smart PreOp Solution is designed to support and accelerate clinical assessments, not to replace informed decisions made by clinicians. Individuals using the solution should be aware that any clinical judgments they make based on information provided by Smart PreOp should be evaluated in conjunction with information from the patient and their medical records, as well as the clinician’s own knowledge and experience" />
 <link rel="canonical" href="https://solutions.aireinnovate.com/smart-preop-doc/docs/introduction/" />
 <meta property="og:url" content="https://solutions.aireinnovate.com/smart-preop-doc/docs/introduction/" />
 <meta property="og:site_name" content="Smart PreOp Docs" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-03-20T00:00:00+00:00" />
+<meta property="article:published_time" content="2024-10-14T00:00:00+00:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Introduction to Smart PreOp" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-03-20T00:00:00+00:00","datePublished":"2024-03-20T00:00:00+00:00","description":"Introduction to Smart PreOp","headline":"Introduction to Smart PreOp","mainEntityOfPage":{"@type":"WebPage","@id":"https://solutions.aireinnovate.com/smart-preop-doc/docs/introduction/"},"url":"https://solutions.aireinnovate.com/smart-preop-doc/docs/introduction/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-14T00:00:00+00:00","datePublished":"2024-10-14T00:00:00+00:00","description":"Using Smart PreOp The Smart PreOp Solution is designed to support and accelerate clinical assessments, not to replace informed decisions made by clinicians. Individuals using the solution should be aware that any clinical judgments they make based on information provided by Smart PreOp should be evaluated in conjunction with information from the patient and their medical records, as well as the clinician’s own knowledge and experience","headline":"Introduction to Smart PreOp","mainEntityOfPage":{"@type":"WebPage","@id":"https://solutions.aireinnovate.com/smart-preop-doc/docs/introduction/"},"url":"https://solutions.aireinnovate.com/smart-preop-doc/docs/introduction/"}</script>
 <!-- End Jekyll SEO tag -->
 
   <meta property="og:image" content="https://solutions.aireinnovate.com/smart-preop-doc/assets/posts/"/>
@@ -62,6 +62,12 @@
                     
                     
                         <li><a href="/smart-preop-doc/docs/introduction" >Introduction</a></li>
+                    
+                
+                    
+                    
+                    
+                        <li><a href="/smart-preop-doc/docs/technical-info" >Technical Info</a></li>
                     
                 
                     
@@ -131,6 +137,15 @@
                     
                     </ul>
                     
+                    <h5>Technical Information</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    
+                      
+                      
+                      <li class=""><a href="/smart-preop-doc/docs/technical-info/">Technical Information</a></li>
+                    
+                    </ul>
+                    
                 </div>
             </div>
 
@@ -149,15 +164,47 @@
 
 
 
-<time datetime="2024-03-20T00:00:00+00:00" itemprop="datePublished">
+<time datetime="2024-10-14T00:00:00+00:00" itemprop="datePublished">
     
-    Mar 20, 2024
+    Oct 14, 2024
 </time>
 
                     </div>
 
                     <div class="article-content">
-                        <p>Introduction to Smart PreOp</p>
+                        <h2 id="using-smart-preop">Using Smart PreOp</h2>
+<p>The Smart PreOp Solution is designed to support and accelerate clinical assessments, not to replace informed decisions made by clinicians. Individuals using the solution should be aware that any clinical judgments they make based on information provided by Smart PreOp should be evaluated in conjunction with information from the patient and their medical records, as well as the clinician’s own knowledge and experience</p>
+
+<h2 id="airesuite">AireSuite</h2>
+<p>All of Aire Logic and Aire Innovate’s products sit within ‘AireSuite’, a modular digital software suite of products. These products are combined to meet the requirements of specific use cases. The Smart PreOp solution is composed of several AireSuite products and solutions, the GP Connect Access Record Structured FHIR API and a Machine Learning Solution (a modelling pipeline and Machine Learning Model).</p>
+
+<p>The primary AireSuite components used in the solution are:</p>
+
+<p>Forms4health: digital form data capture tool</p>
+<ul>
+  <li>AireGlu: integration engine and interfacing solution for connecting systems and transferring data</li>
+  <li>AireToken: key value store which is deployed in combination with AireGlu</li>
+  <li>AireFlow: event driven workflow system</li>
+  <li>AireInsights: framework for data processing pipelines</li>
+</ul>
+
+<h2 id="smart-preop">Smart PreOp</h2>
+<p>The primary aim of the Smart PreOp solution is the integration of GP record data (medications, allergies and problems) into a pre-operative assessment workflow, along with safe predictive analytics. The data is fed through a system that analyses it and produces an American Society of Anesthesiologists (ASA) physical status classification system reference score. Additionally, it produces a probability of mortality estimate. This reference score can then be used by a Healthcare Professional, alongside their knowledge, to make a clinical decision. Please see section 3.4 for further information on the Medical Device status of the solution. The operational goals of the project are to:</p>
+
+<ul>
+  <li>Increase efficiency by reducing the time spent by healthcare staff assessing patients as part of the pre-operative assessment process.</li>
+  <li>Improve safety by reducing the potential for transcription errors.</li>
+  <li>Reduce health disparities by reducing the assessment burden on patients.</li>
+</ul>
+
+<h2 id="regulatory-assessment">Regulatory Assessment</h2>
+<p>The Aire Logic and Aire Innovate Clinical Safety Group have undertaken a regulatory assessment of The Smart PreOp Solution and have assessed it to not be classified as a medical device (software as a standalone device) under the Medical Device Regulations.</p>
+
+<p>While the system reduces administrative burden by collating existing information within the patient record (plus the information requested from GP Connect) to provide an ASA score, the provided score must be approved by a clinician and can also be manually overridden by a clinician.</p>
+
+<p>Health Organisations making significant configuration changes to the Smart PreOp Solution are responsible for undertaking their own regulatory assessment to determine whether the workflow they configure should be classified as software as a medical device. Whilst it is not a requirement to UKCA mark medical devices that are not placed on the market, Health Organisations should manage medical devices under their own Medical Device Management Policy.</p>
+
+<p>Please contact <a href="compliance@airelogic.com">compliance@airelogic.com</a> if you require a copy of the Clinical Safety documentation and/or a copy of the Medical Device Intended Usage Statement.</p>
 
                         <!-- <div class="share uk-text-center">
     <a href="https://twitter.com/intent/tweet?text=Introduction to Smart PreOp&url=https://solutions.aireinnovate.com/docs/introduction/&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter" onclick="window.open(this.href, 'twitter', 'width=550,height=235');return false;"><span data-uk-icon="icon: twitter; ratio: 1.2"></span></a>
@@ -178,7 +225,9 @@
 
           
           
-
+            
+            
+            <li class="uk-margin-auto-left"><a class="hvr-forward" href="/smart-preop-doc/docs/technical-info/">Next &rarr;</a></li>
           
     </ul>
     
@@ -192,6 +241,15 @@
     
 
     <ul class="uk-list">
+    
+
+    
+    
+
+    
+
+    
+
     
 
     
@@ -248,6 +306,15 @@
         
         </ul>
         
+        <h5 class="uk-margin-top">Technical Information</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/smart-preop-doc/docs/technical-info/">Technical Information</a></li>
+        
+        </ul>
+        
 
     </div>
 </div>
@@ -263,6 +330,9 @@
             
                 
             <li><a href="https://solutions.aireinnovate.com/smart-preop-doc/docs/introduction" >Introduction</a></li>
+            
+                
+            <li><a href="https://solutions.aireinnovate.com/smart-preop-doc/docs/technical-info" >Technical Info</a></li>
             
                 
             <li><a href="https://solutions.aireinnovate.com/smart-preop-doc/changelog/" >Changelog</a></li>
